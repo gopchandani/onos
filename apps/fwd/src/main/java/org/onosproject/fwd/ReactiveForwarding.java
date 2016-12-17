@@ -89,7 +89,7 @@ import static org.slf4j.LoggerFactory.getLogger;
 @Component(immediate = true)
 public class ReactiveForwarding {
 
-    private static final int DEFAULT_TIMEOUT = 10;
+    private static final int DEFAULT_TIMEOUT = 999999;
     private static final int DEFAULT_PRIORITY = 10;
 
     private final Logger log = getLogger(getClass());
